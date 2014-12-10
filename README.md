@@ -8,9 +8,10 @@ How to compline?
 - Go to:
 /ATM7029_A_4.4/rootfs/fwmisc/
 - Copy into this folder misc files from your device:
-config.xml
-gpiocfg.xml
+config.xml,
+gpiocfg.xml,
 pinctrl.xml
+And remove README.txt
 - Run Make_Bootloader.exe
 - Wait 10 seconds
 - Bootloader compiled.
