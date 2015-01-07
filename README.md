@@ -11,9 +11,9 @@ How to compline?
 config.xml,
 gpiocfg.xml,
 pinctrl.xml
-And remove README.txt
-- Run Make_Bootloader.exe
-- Wait 10 seconds
+and remove README.txt.
+- Run Make_Bootloader.exe.
+- Wait 10 seconds.
 - Bootloader compiled.
 
 Copyrights
