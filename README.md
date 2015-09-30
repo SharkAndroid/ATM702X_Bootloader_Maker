@@ -1,25 +1,24 @@
-actions_bootloader_maker
+ATM702X_Bootloader_Maker
 ========================
-- This program compiles Bootloader(FW) for gs702a platform that has Actions ATM7029 processor.
-- ONLY FOR WINDOWS OS.
+- This program compiles Bootloader(.fw) for Ainol devices that has Actions ATM702X(7029,7025) processor.
+- ONLY FOR WINDOWS OS!
 
 How to compline?
 ================
 - Go to:
-/ATM7029_A_4.4/rootfs/fwmisc/
+/ainol_atm702x_bootloader/rootfs/fwmisc/ (where x is a cpu version).
 - Copy into this folder misc files from your device:
 config.xml,
 gpiocfg.xml,
-pinctrl.xml
-and remove README.txt.
+pinctrl.xml.
 - Run Make_Bootloader.exe.
-- Wait 10 seconds.
-- Bootloader compiled.
+- Wait 10-15 seconds.
+- Bootloader(.fw) compiled.
 
 Copyrights
 ==========
-* Copyright (C) 2014 Actions-Semi, Inc.
-* Copyright (C) 2014 SharkAndroid.
+* Copyright © 2014, Actions-Semi, Inc.
+* Copyright © 2014, SharkAndroid(iBullRay).
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
