@@ -11,6 +11,7 @@ How to compline?
 config.xml,
 gpiocfg.xml,
 pinctrl.xml.
+- Change "BRAND" and "DEVICE" in fwimage_linux.cfg file to your.
 - Run Make_Bootloader.exe.
 - Wait 10-15 seconds.
 - Bootloader(.fw) compiled.
